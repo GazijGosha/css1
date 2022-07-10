@@ -1,0 +1,18 @@
+h1:nth-child(3n) {
+	color:yellow;
+}
+.edge:nth-last-child( 1 ),.edge:nth-child( 2 ){
+	color: red;
+}
+.middle{
+	color: blue;
+}
+#MyTitle4{
+	color: green;
+}
+p>b:nth-child(n+3){
+	color: #ffff00;
+}
+span>b:nth-child(1), b:nth-child(10){
+	color: blue;
+}
